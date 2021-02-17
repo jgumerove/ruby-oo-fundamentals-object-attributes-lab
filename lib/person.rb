@@ -1,19 +1,23 @@
 class Person
     def initialize
-        @name = name
+        @name = name 
         @job = job
     end
-    def name
+
+    def name  #getter method
         @name
     end
-    def name=(new_name)
+
+    def name=(new_name)  #setter method
         @name = new_name
     end
-    
+
     def job
-       @job 
+        @job
     end
-    def job=(new_job)
-        @job = new_job
+
+    def job=(job_new)
+        @job = job_new
     end
+
 end
